@@ -7,4 +7,4 @@ function factorial(num) {
   }
   return num * factorial(num - 1);
 }
-console.log('fact num:',factorial(num));
+console.log(factorial(num));
