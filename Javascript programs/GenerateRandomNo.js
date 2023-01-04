@@ -6,7 +6,7 @@ function randomNoGenerte(){
     console.log(Number((Math.random()*100).toFixed(2)))//fixed number upto 2 digits
     console.log(Math.floor(Math.random()*10));//another way to trucate decimals
     let a=1,b=50;
-    console.log(Math.floor(Math.random()*(b-a)));
+    console.log(Math.floor(Math.random()*(b-a)));//find random no bw two numbers
     
 
 }
